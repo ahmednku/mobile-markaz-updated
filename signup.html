@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mobile Markaz</title>
+    <meta name="keywords" content="HTML5 Template">
+    <meta name="description" content="Molla - Bootstrap eCommerce Template">
+    <meta name="author" content="p-themes">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icons/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="images/logo.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="images/logo.webp">
+    <link rel="manifest" href="assets/images/icons/site.html">
+    <link rel="mask-icon" href="assets/images/icons/safari-pinned-tab.svg" color="#666666">
+    <link rel="shortcut icon" href="assets/images/icons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Molla">
+    <meta name="application-name" content="Molla">
+    <meta name="msapplication-TileColor" content="#cc9966">
+    <meta name="msapplication-config" content="assets/images/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Plugins CSS File -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/plugins/magnific-popup/magnific-popup.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-middle sticky-header">
+            <div class="container">
+                <div class="header-left">
+                    <button class="openbtn" onclick="openNav()">
+                        <span class="sr-only">Toggle mobile menu</span>
+                        <i class="icon-bars"></i>
+                    </button>
+                    <a href="index.html" class="logo">
+                        <img src="images/logo.webp" alt="Molla Logo" width="105" height="25">
+                    </a>
+                </div>
+                <div class="header-input-search">
+                    <div class="header-search">
+                        <a href="#" class="search-toggle" role="button" title="Search"><i
+                                class="icon-search"></i></a>
+                        <form action="#" method="get">
+                            <div class="header-search-wrapper">
+                                <label for="q" class="sr-only">Search</label>
+                                <input type="search" class="form-control" name="q" id="q" placeholder="Search in..."
+                                    required>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="header-right">
+
+                    <!-- <ul class="mobile-view">
+                        <li><a href="#"><i class="icon-user"></i>User</a>
+                        </li>
+                    </ul> -->
+                    <ul class="top-menu">
+                        <li>
+                            <ul>
+                                <li><a href="signin.html">Login</a>
+                                </li>
+                                <li><a href="signup.html">Signup</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="social-icons social-icons-color responsive-icon">
+
+                        <a href="#" class="social-icon social-facebook" title="Facebook" target="_blank"><i
+                                class="icon-facebook-f"></i></a>
+                        <a href="#" class="social-icon social-twitter" title="Twitter" target="_blank"><i
+                                class="icon-twitter"></i></a>
+                        <a href="#" class="social-icon social-instagram" title="Pinterest" target="_blank"><i
+                                class="icon-instagram"></i></a>
+                    </div>
+
+
+                    <div id="mySidepanel" class="sidepanel">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                        <a href="index.html">Home</a>
+                        <a href="product.html">Product</a>
+                        <a href="comparision.html">Comparision</a>
+                        <a href="about-us.html">About Us</a>
+                        <a href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sign in / Register Modal -->
+
+    <div class="form-box">
+        <div class="form-tab">
+            <ul class="nav nav-pills nav-fill" role="tablist">
+
+                <li class="nav-item">
+                    <a class="nav-link active" id="register-tab" data-toggle="tab" href="#register" role="tab"
+                        aria-controls="register" aria-selected="false">SignUp</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="tab-content-5">
+
+                <div class="tab-pane fade show active" id="register" role="tabpanel" aria-labelledby="register-tab">
+                    <form action="#">
+                        <div class="form-group">
+                            <label for="register-email">Your email address *</label>
+                            <input type="email" class="form-control" id="register-email" name="register-email" required>
+                        </div><!-- End .form-group -->
+
+                        <div class="form-group">
+                            <label for="register-password">Password *</label>
+                            <input type="password" class="form-control" id="register-password" name="register-password"
+                                required>
+                        </div><!-- End .form-group -->
+
+                        <div class="form-footer">
+                            <button type="submit" class="btn btn-outline-primary-2">
+                                <span>SIGN UP</span>
+                                <span class="btn-arrows">></span>
+                            </button>
+
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="register-policy" required>
+                                <label class="custom-control-label" for="register-policy">I agree to the
+                                    <a href="#">privacy policy</a> *</label>
+                            </div><!-- End .custom-checkbox -->
+                        </div><!-- End .form-footer -->
+                    </form>
+
+                </div><!-- .End .tab-pane -->
+            </div><!-- End .tab-content -->
+        </div><!-- End .form-tab -->
+    </div><!-- End .form-box -->
+
+    <footer class="footer footer-dark">
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-sm-6 col-lg-3">
+                        <div class="widget widget-about">
+                            <img src="images/logo.webp" class="footer-logo" alt="Footer Logo" width="105"
+                                height="25">
+                            <p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu vulputate
+                                magna eros eu erat. </p>
+
+                            <div class="social-icons">
+                                <a href="#" class="social-icon" title="Facebook" target="_blank"><i
+                                        class="icon-facebook-f"></i></a>
+                                <a href="#" class="social-icon" title="Twitter" target="_blank"><i
+                                        class="icon-twitter"></i></a>
+                                <a href="#" class="social-icon" title="Instagram" target="_blank"><i
+                                        class="icon-instagram"></i></a>
+                                
+                            </div><!-- End .soial-icons -->
+                        </div><!-- End .widget about-widget -->
+                    </div><!-- End .col-sm-6 col-lg-3 -->
+
+                    <div class="col-6 col-sm-6 col-lg-3">
+                        <div class="widget">
+                            <h4 class="widget-title">Useful Links</h4><!-- End .widget-title -->
+
+                            <ul class="widget-list">
+                                <li><a href="#">Our Blogs</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Press Inquiry</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms of service</a></li>
+                                <li><a href="#">Write for us</a></li>
+                               
+                            </ul><!-- End .widget-list -->
+                        </div><!-- End .widget -->
+                    </div><!-- End .col-sm-6 col-lg-3 -->
+
+                    <div class="col-6 col-sm-6 col-lg-3">
+                        <div class="widget">
+                            <h4 class="widget-title">Top Brands</h4><!-- End .widget-title -->
+
+                            <ul class="widget-list">
+                                <li><a href="#">Samsung</a></li>
+                                <li><a href="#">Apple</a></li>
+                                <li><a href="#">Huawei</a></li>
+                                <li><a href="#">Realme</a></li>
+                                <li><a href="#">Oppo</a></li>
+                                <li><a href="#">Infinix</a></li>
+                                <li><a href="#">Vivo</a></li>
+                            </ul><!-- End .widget-list -->
+                        </div><!-- End .widget -->
+                    </div><!-- End .col-sm-6 col-lg-3 -->
+
+                    <div class="col-6 col-sm-6 col-lg-3">
+                        <div class="widget">
+                            <h4 class="widget-title">My Account</h4><!-- End .widget-title -->
+
+                            <ul class="widget-list">
+                                <li><a href="#">Sign In</a></li>
+                                <li><a href="#">View Cart</a></li>
+                                <li><a href="#">My Wishlist</a></li>
+                                <li><a href="#">Track My Order</a></li>
+                                <li><a href="#">Help</a></li>
+                            </ul><!-- End .widget-list -->
+                        </div><!-- End .widget -->
+                    </div><!-- End .col-sm-6 col-lg-3 -->
+                </div><!-- End .row -->
+            </div><!-- End .container -->
+        </div><!-- End .footer-middle -->
+    </footer><!-- End .footer -->
+
+    <!-- Plugins JS File -->
+    <script src="assets/js/jquery.min.js" async></script>
+    <script src="assets/js/bootstrap.bundle.min.js" async></script>
+    <script src="assets/js/jquery.hoverIntent.min.js" async></script>
+    <script src="assets/js/jquery.waypoints.min.js" async></script>
+    <script src="assets/js/superfish.min.js" async></script>
+    <script src="assets/js/owl.carousel.min.js" async></script>
+    <script src="assets/js/jquery.magnific-popup.min.js" async></script>
+    <!-- Main JS File -->
+    <script src="assets/js/main.js" async></script>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidepanel").style.width = "300px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+        }
+    </script>
+</body>
+
+</html>
